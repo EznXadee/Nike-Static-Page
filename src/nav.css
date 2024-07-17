@@ -1,0 +1,58 @@
+#nike-logo{
+    width: 150px;
+    height: 120px;
+}
+#nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-direction: row;
+}
+#nav a{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-right: 25px;
+
+}
+#nav-components{
+  font-size: 120px;
+}
+#login{
+    background-color: #FA2A55;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 40px;
+}
+@media (max-width: 768px) {
+    #nav a{
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    #login{
+        font-size: 15px;
+        padding: 5px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 500px) {
+    #nav a{
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    #login{
+        font-size: 10px;
+        padding: 5px;
+        margin-right: 10px;
+        margin-left: 1rem;
+    }
+    #nike-logo{
+        width: 70px;
+        height: 60px;
+    }
+}

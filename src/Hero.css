@@ -1,0 +1,102 @@
+#heroHeader{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 110px;
+    max-width: 700px;
+    padding-left: 19rem;
+}
+.Headers-Hero{
+    padding-top: 90px;
+}
+#hero-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-direction: row;
+
+}
+#shoe{
+    padding-right: 10.5rem;
+    height: 800px;
+}
+#hero-buttons{
+    display: flex;
+    flex-direction: row;
+}
+#para{
+  font-size: 30px;
+  max-width: 700px;
+  padding-bottom: 40px;
+}
+
+#shop-now{
+    background-color: #FA2A55;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 40px;
+}
+#hero{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-direction: column;
+}
+    @media (max-width: 768px) {
+        #heroHeader{
+            font-size: 70px;
+            padding-left: 8rem;
+        }
+        #hero-part{
+            flex-direction: column;
+            padding: 1rem 0rem;
+        }
+        #shoe{
+            padding-right: 0rem;
+            height: 400px;
+        }
+        #para{
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    @media (max-width: 500px) {
+        #heroHeader{
+            font-size: 60px;
+            padding-left: 02rem;
+        }
+        #hero-part{
+            flex-direction: column;
+            padding: 1rem 0rem;
+        }
+        #shoe{
+            padding-right: 0rem;
+            height: 300px;
+        }
+        #para{
+            font-size: 20px;
+            max-width: 400px;
+            padding-bottom: 20px;
+            padding-left: 3.5rem;
+        }
+        #shop-now{
+            background-color: #FA2A55;
+            color: white;
+            width: 150px;
+            border-radius: 5px;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 10px;
+            margin-right: 40px;
+        }
+        #hero-buttons{
+            padding-left: 5rem;
+        }
+    }
+   
